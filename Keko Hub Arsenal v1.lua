@@ -27,7 +27,7 @@ btns:Button("UnTeam Check", function()
     _G.TeamCheck = false
 end)
 
-btns:Button("Aimbot", function()
+btns:Button("ESP", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Alikeremwq/XAlish/main/pfqwp.lua"))()
     DiscordLib:Notification("Notification", "ESP Enabled!", "")
 end)
